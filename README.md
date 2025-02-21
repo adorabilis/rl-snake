@@ -6,7 +6,7 @@ This project implements a Deep Q-Learning (DQL) agent that learns to play the cl
 
 <img align="right" src="https://github.com/user-attachments/assets/2f912ded-5699-4316-a591-b6e4ef65440a" alt="RL agent playing the classic snake game">
 
-The agent uses a neural network to approximate the Q-value function, which predidcts the expected future rewards for each possible action. The agent explores the environment using an epsilon-greedy policy, balancing exploration (random actions) and exploitation (choosing the best-known action). The experience replay buffer stores past interactions, allowing the agent to learn from a diverse set of states and actions.
+The agent uses a neural network to approximate the Q-value function, which predicts the expected future rewards for each possible action. The agent explores the environment using an epsilon-greedy policy, balancing exploration (random actions) and exploitation (choosing the best-known action). The experience replay buffer stores past interactions, allowing the agent to learn from a diverse set of states and actions.
 
 After training, the agent learns to:
 
